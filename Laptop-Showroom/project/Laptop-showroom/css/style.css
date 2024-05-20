@@ -1,0 +1,460 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 60%;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+.navbar{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+
+
+
+}
+.nav-list
+{
+width: 50%;
+
+display: flex;
+align-items: center;
+}
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+
+
+
+}
+.nav-list li a{
+
+    text-decoration: none;
+    color: aqua;
+}
+.nav-list li a:hover{
+
+    text-decoration: none;
+    color: rgb(18, 44, 44);
+}
+.rightNav{
+    width: 50%;
+    text-align: right;
+    padding: 0 23px;
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid rgb(79, 23, 23);
+    border-radius: 10px;
+}
+.background{
+background: rgba(0, 0, 0, 0.7) url('../im/m2.jpg.png');
+background-size: cover;
+background-blend-mode: darken;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(254, 253, 251);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 65%;
+   
+      margin: auto;
+      height: 100vh;
+
+
+}
+
+.firstHalf{
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+
+
+}
+.secondHalf{
+    width: 40%;
+
+}
+.secondHalf img{
+     width: 100%; 
+    border: 5px solid rgb(242, 237, 237);
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+
+}
+.text-big{
+    font-size: 41px;
+    margin: 2px;
+    padding: 5px 10px;
+   
+
+}
+.text-small{
+
+    font-size: 18px;
+}
+.btn{
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border: 2px solid rgb(236, 234, 234);
+    border-radius: 8px; 
+    background: none;
+    color: beige;
+    cursor: pointer;
+}
+.btn-sm{
+    padding: 6px 10px;
+}
+
+
+ 
+
+
+/* about */
+.mainText button:hover{
+    border: 3px solid rgb(3, 128, 128);
+    background-color: transparent;
+    color: rgb(2, 121, 121);
+}
+
+
+.head h1{
+    
+    text-align: center;
+    padding: 33px;
+    margin-top: 32px;
+}
+.head span{
+    color: rgb(113, 33, 33);
+}
+
+.card{
+    display:flex;
+    justify-content: center;
+}
+
+
+
+
+.crd{
+    
+    width: 300px;
+    height: 500px;
+    margin-inline: 11px;
+    border-radius: 11px;
+   
+}
+.crd:hover{
+    transition: 0.6s ease;
+    width: 320px;
+    height: 520px;
+}
+.crd img{
+    width: 85%;
+    padding: 22px;
+    border-radius: 31px;
+
+}
+.crdText{
+    margin-left: 16px;
+    padding: 8px;
+}
+.crdText button{
+    width: 110px;
+    height: 33px;
+    border: none;
+    background-color: rgb(27, 67, 67);
+    color: white;
+    font-size: 19px;
+    margin-top: 11px;
+}
+.crdText i{
+    color: rgb(255, 149, 0);
+}
+
+.blog{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 300px;
+    background-color: #fff;
+    margin-inline: 22px;
+    border-radius: 11px;
+   
+}
+.blog:hover{
+    transition: 0.6s ease;
+    width: 520px;
+    height: 320px;
+}
+.blog img{
+    padding: 22px;
+    width: 85%;
+}
+.blogText{
+    padding: 12px;
+    margin-top: 33px;
+}
+.blogText a{
+    width: 130px;
+    padding: 4px;
+    height: 18px;
+    background-color: rgb(4, 136, 136);
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+position: relative;
+top: 33px;
+}
+.letter{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color:rgb(2, 2, 66);
+    padding: 43px;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 53px;
+}
+.footer .footerText{
+    margin-inline: 85px;
+}
+.footerText p{
+    margin-top: 11px;
+}
+
+/* about */
+.about{
+    display: none;
+}
+.aboutus{
+    background-color: rgb(1, 1, 42);
+    color: white;
+    padding: 56px;
+    font-size: 19px;
+}
+.me{
+    display:flex;
+    justify-content: center;
+    width: 700px;
+    background-color: #fff;
+    padding: 33px;
+    margin-left: 18%;
+    margin-top: 7%;
+}
+.me img{
+    width: 54%;
+}
+
+/* /contact */
+
+.contact{
+    display: none;
+}
+.contactus{
+    background-color: rgb(1, 1, 42);
+    color: white;
+    padding: 56px;
+    font-size: 19px;
+}
+
+.contactMe{
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    margin-top: 5%;
+    background-color: #fff;
+    margin-left: 10%;
+
+}
+.contactMe img{
+    width: 55%;
+}
+
+.contactText{
+    padding: 22px;
+    width: 600px;
+}
+.contactText p{
+    margin-top: 12px;
+}
+
+
+
+
+
+/* cart */
+.cart {
+    display: flex;
+    justify-content: center;
+    display: none;
+    padding: 20px;
+}
+
+.cartText {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 400px;
+    text-align: center;
+}
+
+.cartText h1,
+.cartText h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.cartText p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.cartText .btn button,
+.cartText .back {
+    width: 150px;
+    height: 50px;
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.cartText .btn button:hover,
+.cartText .back:hover {
+    background-color: #ff5252;
+}
+/* Customer Details */
+.customer-details {
+    display: none;
+    margin-top: 50px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* .customer-details h2 {
+    text-align: left;
+    color: #333;
+    margin-bottom: 3000px;
+} */
+
+.customer-details input,
+.customer-details textarea {
+    width: 100%;
+    padding: 100px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5000px;
+    box-sizing: border-box;
+}
+ /* submit button */
+.customer-details button {
+    width: 100%;
+    padding: 1555px;
+    background-color: #dc5a03;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+
+/* Confirmation Message */
+.confirmation-message {
+    display: none;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 24px;
+    color: #150c0c;
+}
+
+.confirmation-message p {
+    margin-bottom: 2000px;
+}
+
+
+
+
+
+/* Style for form container */
+#orderForm {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+}
+
+/* Style for form labels */
+#orderForm label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Style for form inputs */
+#orderForm input {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style for submit button */
+#orderForm button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Style for confirmation message container */
+.confirmation-message {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #dff0d8;
+    border: 1px solid #d6e9c6;
+    border-radius: 4px;
+    display: none; 
+}
+
+/* Style for confirmation message text */
+.confirmation-message p {
+    margin-bottom: 10px;
+}
+
